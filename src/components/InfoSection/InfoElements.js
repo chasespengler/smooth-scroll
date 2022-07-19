@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { ReactSVG } from 'react-svg'
 
 export const InfoContainer = styled.div`
     color: #fff;
@@ -63,7 +64,7 @@ export const Heading = styled.h1`
     margin-bottom: 24px;
     font-size: 48px;
     font-weight: 600;
-    color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#7010606')};
+    color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#010606')};
 
     @media screen and (max-width: 480px) {
         font-size: 32px;
