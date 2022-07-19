@@ -31,7 +31,7 @@ const Navbar = ({ toggle }) => {
                     </NavItem>
                     <NavItem>
                         <NavLinks to="discover">
-                            Disvover
+                            Discover
                         </NavLinks>
                     </NavItem>
                     <NavItem>
